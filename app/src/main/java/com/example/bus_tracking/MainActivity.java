@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         },4000);
     }
 
-    public void onBackPressed() {
+   /* public void onBackPressed() {
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
         View view  = LayoutInflater.from(MainActivity.this).inflate(R.layout.giveup_alert, null);
@@ -81,4 +81,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    */
 }
