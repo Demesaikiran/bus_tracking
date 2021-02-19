@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">bus_tracking</string>
+
+    <string name="image">image</string>
+    <string name="Are_you_sure">Are_you_sure</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
 </resources>
