@@ -17,11 +17,20 @@ public class Welcome extends AppCompatActivity {
 
 
 
-        Button button1 = (Button) findViewById(R.id.button2);
+        Button button1 = (Button) findViewById(R.id.driver);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Welcome.this, registration.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button2 = (Button) findViewById(R.id.user);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Welcome.this, user.class);
                 startActivity(intent);
             }
         });
